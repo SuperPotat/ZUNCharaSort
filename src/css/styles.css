@@ -42,7 +42,7 @@ body {
   margin: 0px auto;
   display: grid;
   grid-template-columns: 120px 1fr 120px;
-  grid-gap: 5px;
+  grid-gap: 42px;
   width: 420px;
 }
 
@@ -111,16 +111,18 @@ body {
 }
 
 .sorter > .image {
-  width: 120px;
-  height: 180px;
-  margin: auto;
+  width: 192px;
+  margin: 0px;
+  margin-left: -36px;
   grid-row: 1 / 7;
   cursor: pointer;
 }
 
 .sorter > .text {
-  width: 120px;
+  width: 192px;
   height: 60px;
+  margin-left: -36px;
+  margin-top: -40px;
   display: none;
 }
 
